@@ -1,7 +1,7 @@
 .container {
     width: 100%;
-    padding: 1rem;
-    background: rgba(0,0,0,.4);
+    padding: 8px 1rem;
+    background: rgba(0,0,0,.8);
     grid-column-start: 2;
     grid-column-end: 3;
 
@@ -10,6 +10,27 @@
     justify-content: space-between;
 
     /* position: fixed; */
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.btn{
+    padding: .5rem;
+    border-radius: 50%;
+    background: rgba(122, 122, 122, 0.4);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    cursor: pointer;
+
+}
+.icon{
+    color: #fff;
 }
 
 .items {
@@ -27,4 +48,17 @@
 .btn_inscrever:hover{
     color: #fff;
     transform: scale(1.05);
+}
+.btn_entrar{
+    background: #fff;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-decoration: 0;
+    color: #000;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.btn_entrar:hover{
+    transform: scale(1.04);
 }
