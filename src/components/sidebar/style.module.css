@@ -1,0 +1,83 @@
+.container{
+    padding: 1.5rem 1rem;
+    width: 18%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+.logo{
+    color: #e2e2e2;
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.spotify{
+    color: #e2e2e2;
+    width: 40px;
+    height: 40px;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+}
+.playlist{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    color: #cacaca;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: .9rem;
+    margin-bottom: 16px;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.item:hover{
+    color: #f1f1f1;
+}
+.icon{
+    width: 28px;
+    height: 28px;
+    color: #cacaca;
+}
+.idiomas{
+    width: fit-content;
+    padding: .5em 1em;
+    color: #cacaca;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+    border: .5px solid #cacaca;
+    border-radius: 2em;
+
+    font-weight :800;
+    font-size: .8rem;
+
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 50px;
+}
+.icon_idioma{
+    width: 18px;
+    height: 18px;
+}
+
+.idiomas:hover{
+    color: #f1f1f1;
+    transform: scale(1.05);
+    border: .5px solid #ffffff;
+}
