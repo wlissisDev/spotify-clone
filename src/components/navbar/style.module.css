@@ -1,7 +1,7 @@
 .container {
     width: 100%;
-    padding: 8px 1rem;
-    background: rgba(0,0,0,.8);
+    padding: 8px 2rem;
+    background: rgba(0,0,0,.4);
     grid-column-start: 2;
     grid-column-end: 3;
 
@@ -36,7 +36,7 @@
 .items {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .btn_inscrever {
