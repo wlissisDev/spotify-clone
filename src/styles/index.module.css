@@ -3,9 +3,12 @@
     /* grid-template-columns: 18vw 82vw;*/
     grid-template-columns:1fr 4.5fr; 
     grid-template-rows: 10vh 90vh;
+    position: relative;
 }
 .main{
     grid-column-start: 2;
     grid-column-end: 3;
+    grid-row-start:1 ;
+    grid-row-end: 3;
     background: blueviolet;
 }

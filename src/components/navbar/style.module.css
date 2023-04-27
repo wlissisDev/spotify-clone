@@ -1,12 +1,30 @@
-.container{
+.container {
     width: 100%;
     padding: 1rem;
-    background: #363636;
+    background: rgba(0,0,0,.4);
     grid-column-start: 2;
     grid-column-end: 3;
-    
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+    /* position: fixed; */
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn_inscrever {
+    color: #ccc;
+    font-size: .9rem;
+    font-weight: bold;
+    text-decoration: 0;
+}
+.btn_inscrever:hover{
+    color: #fff;
+    transform: scale(1.05);
 }

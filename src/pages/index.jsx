@@ -4,12 +4,12 @@ import Sidebar from "@/components/sidebar";
 
 export default function Home() {
   return (
-  <div className={style.container}>
-    <Sidebar/>
-    <Navbar/>
-    <div className={style.main}>
-      <h1>cards</h1>
+    <div className={style.container}>
+      <Sidebar />
+      <div className={style.main}>
+        <Navbar />
+        <h1>cards</h1>
+      </div>
     </div>
-  </div>      
   )
 }
