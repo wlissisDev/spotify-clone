@@ -10,7 +10,7 @@ export default function Card() {
                 <Image className={style.image} src={album} alt="capa do albun" />
             </div>
             <div className={style.info}>
-                <h2 className={style.title}>Title</h2>
+                <h2 className={style.title}>Music</h2>
                 <p className={style.desc}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
                     maxime quasi provident repellendus vel eveniet earum, qui accusantium hic natus,

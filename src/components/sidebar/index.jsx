@@ -11,18 +11,20 @@ import Idioma from '../idioma'
 export default function Sidebar() {
     return (
         <div className={style.container}>
-            <Logo/>
+            <Logo />
             <div className={style.search}>
                 <a href="#" className={style.item}><AiFillHome className={style.icon} /> Início</a>
-                <a href="#" className={style.item}><BsSearch className={style.icon}/> Buscar</a>
-                <a href="#" className={style.item}><BiLibrary className={style.icon}/> Sua Biblioteca</a>
+                <a href="#" className={style.item}><BsSearch className={style.icon} /> Buscar</a>
+                <a href="#" className={style.item}><BiLibrary className={style.icon} /> Sua Biblioteca</a>
             </div>
 
             <div className={style.playlist}>
-                <a href="#" className={style.item}><GoDiffAdded className={style.icon}/> Criar playlist</a>
-                <a href="#" className={style.item}><BsFillCalendar2HeartFill color='#681df3' className={style.icon}/> Músicas Curtidas</a>
+                <a href="#" className={style.item}><GoDiffAdded className={style.icon} /> Criar playlist</a>
+                <a href="#" className={style.item}><BsFillCalendar2HeartFill color='#681df3' className={style.icon} /> Músicas Curtidas</a>
             </div>
-            <Idioma/>
+            <div className={style.idioma}>
+                <Idioma />
+            </div>
         </div>
     )
 }

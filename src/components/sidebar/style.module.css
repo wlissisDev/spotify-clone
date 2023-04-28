@@ -12,7 +12,7 @@
     grid-row-end: 3;
 }
 
-@media (max-width:425px) {
+@media (max-width:768px) {
     .container {
         display: none;
     }
@@ -66,3 +66,7 @@
     color: #cacaca;
 }
 
+.idioma{
+    position: absolute;
+    bottom: 50px;
+}

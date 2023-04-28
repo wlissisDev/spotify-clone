@@ -3,6 +3,7 @@ import style from '../styles/index.module.css'
 import Sidebar from "@/components/sidebar";
 import Card from '@/components/card';
 import NavMobile from '@/components/navbarmobile';
+import Idioma from '@/components/idioma';
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <Sidebar />
       <div className={style.main}>
         <Navbar />
-        <NavMobile/>
+        <NavMobile />
         <div className={style.main_foco}>
           <div className={style.content_title}>
             <h1 className={style.title}>Foco</h1>
@@ -18,6 +19,18 @@ export default function Home() {
           </div>
 
           <div className={style.foco}>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </div>
+          <div className={style.playlists_mobile}>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
             <Card />
             <Card />
             <Card />
@@ -37,8 +50,23 @@ export default function Home() {
             <Card />
             <Card />
           </div>
+          <div className={style.playlists_mobile}>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </div>
         </div>
         <div className={style.linha}></div>
+        <div className={style.idioma}>
+          <Idioma />
+        </div>
       </div>
     </div>
   )
