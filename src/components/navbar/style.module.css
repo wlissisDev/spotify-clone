@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    padding: 8px 2rem;
+    padding: 20px 2rem;
     background: rgba(0,0,0,.4);
     grid-column-start: 2;
     grid-column-end: 3;
@@ -9,8 +9,12 @@
     align-items: center;
     justify-content: space-between;
 
-    /* position: fixed; */
+    position: fixed;
+    z-index: 1;
+    
 }
+
+
 
 .buttons{
     display: flex;
@@ -37,6 +41,8 @@
     display: flex;
     align-items: center;
     gap: 2rem;
+    position: absolute;
+    right:  300px;
 }
 
 .btn_inscrever {
