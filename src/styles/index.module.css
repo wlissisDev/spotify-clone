@@ -17,6 +17,8 @@
     overflow-x: hidden;
 }
 
+
+
 .main::-webkit-scrollbar{
     background: #181818;
     width: 12px;
@@ -76,4 +78,13 @@
     background: rgb(73, 73, 73);
     height: 1px;
     margin: 6rem 2rem;
+}
+
+@media (max-width:425px) {
+    .main{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
 }

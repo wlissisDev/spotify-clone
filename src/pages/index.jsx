@@ -2,6 +2,7 @@ import Navbar from '@/components/navbar';
 import style from '../styles/index.module.css'
 import Sidebar from "@/components/sidebar";
 import Card from '@/components/card';
+import NavMobile from '@/components/navbarmobile';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Sidebar />
       <div className={style.main}>
         <Navbar />
+        <NavMobile/>
         <div className={style.main_foco}>
           <div className={style.content_title}>
             <h1 className={style.title}>Foco</h1>

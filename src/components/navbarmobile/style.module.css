@@ -1,0 +1,11 @@
+.nav_mobile{
+    display: none;
+    background: red;
+    width: 100%;
+}
+
+@media (max-width:425px) {
+    .nav_mobile{
+        display: inline;
+    }
+}

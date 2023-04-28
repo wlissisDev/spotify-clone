@@ -1,17 +1,17 @@
 import React from 'react'
 import style from './style.module.css'
+import Logo from '../logo'
 
-import { BsSearch, BsFillCalendar2HeartFill, BsSpotify } from 'react-icons/bs'
+import { BsSearch, BsFillCalendar2HeartFill } from 'react-icons/bs'
 import { AiFillHome } from 'react-icons/ai'
 import { BiLibrary } from 'react-icons/bi'
 import { GoDiffAdded } from 'react-icons/go'
-import {TbWorld} from 'react-icons/tb'
+import Idioma from '../idioma'
 
 export default function Sidebar() {
     return (
         <div className={style.container}>
-            <span className={style.logo}><BsSpotify className={style.spotify}/> Spotify</span>
-
+            <Logo/>
             <div className={style.search}>
                 <a href="#" className={style.item}><AiFillHome className={style.icon} /> Início</a>
                 <a href="#" className={style.item}><BsSearch className={style.icon}/> Buscar</a>
@@ -22,8 +22,7 @@ export default function Sidebar() {
                 <a href="#" className={style.item}><GoDiffAdded className={style.icon}/> Criar playlist</a>
                 <a href="#" className={style.item}><BsFillCalendar2HeartFill color='#681df3' className={style.icon}/> Músicas Curtidas</a>
             </div>
-            <span className={style.idiomas}><TbWorld className={style.icon_idioma}/> Português do Brasil</span>
-
+            <Idioma/>
         </div>
     )
 }

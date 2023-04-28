@@ -1,0 +1,32 @@
+.idiomas {
+    width: fit-content;
+    padding: .5em 1em;
+    color: #cacaca;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+    border: .5px solid #cacaca;
+    border-radius: 2em;
+
+    font-weight: 800;
+    font-size: .8rem;
+
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 50px;
+}
+
+.icon_idioma {
+    width: 18px;
+    height: 18px;
+}
+
+.idiomas:hover {
+    color: #f1f1f1;
+    transform: scale(1.05);
+    border: .5px solid #ffffff;
+}

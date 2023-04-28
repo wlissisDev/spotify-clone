@@ -1,0 +1,14 @@
+.logo {
+    color: #e2e2e2;
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.spotify {
+    color: #e2e2e2;
+    width: 40px;
+    height: 40px;
+}
